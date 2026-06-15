@@ -46,6 +46,12 @@ The data is distributed as zip archives on [Google Drive](https://drive.google.c
 - **Image-name index**: mapping of each image to its source subset (Udacity / ApolloScape / IDD / A2D2 / DDD).
 - **Per-effect sets**: one zip per single and mixed effect (12 total).
 
+## Evaluation
+ 
+Models were evaluated using their **publicly released pretrained weights** (no fine-tuning) at IoU ≥ 0.5 and confidence ≥ 0.25, reporting per-class AP and mAP (all-point interpolation). Evaluated detectors: YOLOv5–v11, DETR, R-CNN, Faster R-CNN, RetinaNet, SSD.
+
+![ADCD weather effects demo](assets/figure.jpg)
+
 ## Citation
  
 ```bibtex
