@@ -1,6 +1,10 @@
 # ADCD: Adverse Driving Conditions Dataset
- 
-A synthetic benchmark for evaluating object detection models under 12 adverse weather conditions. Companion dataset for *"Towards safer roads: benchmarking object detection models in complex weather scenarios"* (Machine Vision and Applications, 2025).
+
+**An open benchmark for evaluating object detection models across 12 adverse weather conditions.**
+
+> Published in **Machine Vision and Applications (2025)**  
+> *"Towards Safer Roads: Benchmarking Object Detection Models in Complex Weather Scenarios"*  
+> Ba-Thinh Tran-Le, Vatsa Patel, Viet-Tham Huynh, Mai-Khiem Tran, Kunal Agrawal, Minh-Triet Tran & Tam V. Nguyen
  
 ## Overview
  
