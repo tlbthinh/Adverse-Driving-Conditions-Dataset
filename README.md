@@ -27,15 +27,9 @@ Annotations cover six transportation classes: `car`, `truck`, `bicycle`, `motorc
 **Single (8):** crack, flare, haze, raindrop, snow, sunset, night, rain
 
 **Mixed (4):** haze+raindrop, haze+night, rain+raindrop, crack+flare
- 
-Each single effect links either to its source repo (public method) or to a subfolder in this repo (our own method):
- 
+  
 | Effect(s)     | Code   |
 |---------------|--------|
-| crack         | [`./crack`](./crack) |
-| flare         | [`./flare`](./flare) |
-| haze          | [`./haze`](./haze) |
-| raindrop      | [`./raindrop`](./raindrop) |
 | snow, sunset  | [InstructPix2Pix](https://github.com/timothybrooks/instruct-pix2pix) - prompts `"Make it winter"` / `"Make it sunset"` |
 | rain, night   | [CycleGAN-Turbo](https://github.com/GaParmar/img2img-turbo) |
  
